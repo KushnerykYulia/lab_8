@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/Lab8/src</OriginalElement>
+  <nodes>
+    <node x="22.5" y="213.43628185907045">WinAPIButton</node>
+    <node x="-108.5" y="333.43628185907045">WinAPITextField</node>
+    <node x="-80.83583208395805" y="505.73613193403304">WinAPIWidgetFactory</node>
+    <node x="187.0" y="505.73613193403304">GTKWidgetFactory</node>
+    <node x="235.5" y="60.51499250374812">Button</node>
+    <node x="333.0" y="333.93628185907045">WidgetFactory</node>
+    <node x="233.0" y="213.43628185907045">GTKButton</node>
+    <node x="434.58620689655163" y="505.73613193403304">Application</node>
+    <node x="-84.5" y="45.93628185907046">TextField</node>
+    <node x="122.5" y="333.43628185907045">GTKTextField</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WinAPIWidgetFactory" target="WidgetFactory" relationship="REALIZATION">
+      <point x="54.75" y="-56.0" />
+      <point x="83.41416791604195" y="477.43628185907045" />
+      <point x="387.0" y="477.43628185907045" />
+      <point x="-54.0" y="43.5" />
+    </edge>
+    <edge source="WinAPIWidgetFactory" target="WinAPIButton" relationship="CREATE">
+      <point x="-54.75" y="-56.0" />
+      <point x="-26.085832083958053" y="457.43628185907045" />
+      <point x="101.0" y="457.43628185907045" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="WinAPIButton" target="Button" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="101.0" y="177.43628185907045" />
+      <point x="301.0" y="177.43628185907045" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="GTKButton" target="Button" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="GTKWidgetFactory" target="GTKTextField" relationship="CREATE">
+      <point x="-54.0" y="-56.0" />
+      <point x="241.0" y="457.43628185907045" />
+      <point x="201.0" y="457.43628185907045" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="GTKWidgetFactory" target="GTKButton" relationship="CREATE">
+      <point x="-54.0" y="-56.0" />
+      <point x="241.0" y="457.43628185907045" />
+      <point x="301.0" y="457.43628185907045" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Application" target="WidgetFactory" relationship="TO_ONE">
+      <point x="0.0" y="-44.0" />
+      <point x="546.5862068965516" y="477.43628185907045" />
+      <point x="495.0" y="477.43628185907045" />
+      <point x="54.0" y="43.5" />
+    </edge>
+    <edge source="GTKWidgetFactory" target="WidgetFactory" relationship="REALIZATION">
+      <point x="54.0" y="-56.0" />
+      <point x="349.0" y="477.43628185907045" />
+      <point x="387.0" y="477.43628185907045" />
+      <point x="-54.0" y="43.5" />
+    </edge>
+    <edge source="GTKTextField" target="TextField" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="201.0" y="197.43628185907045" />
+      <point x="-19.0" y="197.43628185907045" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="WinAPITextField" target="TextField" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="WinAPIWidgetFactory" target="WinAPITextField" relationship="CREATE">
+      <point x="-54.75" y="-56.0" />
+      <point x="-26.085832083958053" y="437.43628185907045" />
+      <point x="-19.0" y="437.43628185907045" />
+      <point x="0.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8917112299465241" showDependencies="true" x="232.0" y="360.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
